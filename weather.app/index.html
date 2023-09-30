@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="current_info">
+            <div class="date_container">
+                <div class="time" id="time">
+                    12.30 <span id="am_pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday,25 May
+                </div>
+                <div class="other" id="current_weather_items">
+
+                    <div class="weather_item">
+                        <div>Humidity</div>
+                       <div>62%</div>
+                   </div>
+                   <div class="weather_item">
+                       <div>Pressure</div>
+                       <div>106</div>
+                   </div>
+                   <div class="weather_item">
+                       <div>Wind Speed</div>
+                       <div>15km/h</div>
+                   </div>
+                </div>
+            </div>
+            <div class="place_container">
+                <div class="time_zone" id="time_zone">Asia/Kolkata</div>
+                <div class="country" id="country">IN</div>
+
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="future_forecast">
+        <div class="today" id="current_temp">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png "  alt="weather icon" class="w_icon">
+            <div class="other">
+                <div class="day">Monday</div>
+            <div class="temp">Night - 25&#176; C</div>
+            <div class="temp">Day - 35.9&#176; C</div>
+
+            </div>
+            
+        </div>
+        <div class="weather_forecast" id="weather_forecast">
+            <div class="weather_forecast_item">
+                <div class="day">Tuesday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 24&#176; C</div>
+            <div class="temp">Day - 34.5&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Wednesday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 22&#176; C</div>
+            <div class="temp">Day - 34.7&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Thursday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 24&#176; C</div>
+            <div class="temp">Day - 32&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Friday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 25.9&#176; C</div>
+            <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Saturday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 23&#176; C</div>
+            <div class="temp">Day - 30&#176; C</div>
+            </div>
+            <div class="weather_forecast_item">
+                <div class="day">Sunday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png                " alt="weather icon" class="w_icon">
+            
+            <div class="temp">Night - 21&#176; C</div>
+            <div class="temp">Day - 29&#176; C</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
